@@ -23,6 +23,23 @@ $(function() {
             $navmenu.removeClass("is-scrolling");
         }
     }
+    function setColor(el){
+        return (el.substr(el.length - 1) == "*")?"active":"";
+    }
+    function loadText(){
+        var cel = $("#cell_question");
+        var data = ques.val().split('\n');
+        cel.find("p").text(data[0]);
+
+        var list = "";
+
+        for (var i = 1 ;i < 5 ;i++) {
+            list += "<li class='"+setColor(data[i])+"' ><i class='bi bi-check-circle'></i><i class='bi bi-check-circle "+setColor(data[i])+"'></i>"+data[i].replace("*","")+"</li>";
+        };
+
+        cel.find("ul").html(list);
+    }
+
     menuscroll();
     $(window).on('scroll', function() {
         menuscroll();
@@ -109,4 +126,23 @@ $(function() {
         });
     }
 
+    var ques = $("#txt_question_value");
+
+    ques.val("Esto es tu pregunta completa que tiene que ir en esta sección");
+    ques.val(ques.val() + "\nEsto es tu primera opción a la pregunta");
+    ques.val(ques.val() + "\nEsto es tu segunda opción a la pregunta *");
+    ques.val(ques.val() + "\nEsto es tu tercera opción a la pregunta");
+    ques.val(ques.val() + "\nEsto es tu cuarta opción a la pregunta\n");
+    ques.val(ques.val() + "\nAquí irá la siguiente pregunta completa que tiene que ir en esta sección");
+    ques.val(ques.val() + "\nEsto es tu primera opción a la pregunta");
+    ques.val(ques.val() + "\nEsto es tu segunda opción a la pregunta");
+    ques.val(ques.val() + "\nEsto es tu tercera opción a la pregunta *");
+    ques.val(ques.val() + "\nEsto es tu cuarta opción a la pregunta");
+
+    loadText();
+    ques.change(function(){
+        loadText();        
+    });
+
 }); /* End Fn */
+

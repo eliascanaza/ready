@@ -1,33 +1,5 @@
 @charset "UTF-8";
 
-/*
-
-Style   : MobApp CSS
-Version : 1.0
-Author  : Surjith S M
-URI     : https://surjithctly.in/
-
-Copyright © All rights Reserved 
-
-*/
-
-
-/*------------------------
-[TABLE OF CONTENTS]
-    
-1. GLOBAL STYLES
-2. NAVBAR
-3. HERO
-4. TABS
-5. TESTIMONIALS
-6. IMAGE GALLERY
-7. PRICING
-8. CALL TO ACTION
-9. FOOTER
-
-------------------------*/
-
-
 /* GLOBAL
 ----------------------*/
 
@@ -202,6 +174,260 @@ p.lead {
 .navbar-nav .nav-link {
     position: relative;
 }
+.client-logos small{
+    margin: 20px 0;
+    display: block;
+    color: #b1dcb1;
+    font-size: 1em;
+}
+/*
+* NOTEPAD
+*/
+
+#notepad{
+    background: #fbfbfb;
+    border: 1px solid #c3c1c1;
+    padding: 4px;
+    font-family: inherit;
+    transform: rotate(-5deg);
+}
+#notepad img.icon{
+    float: left;
+}
+#notepad span{
+    text-align: center;
+    display: block;
+}
+#notepad img.close{
+    float: right;
+}
+#notepad .container_notepad{
+    border: 1px solid #e0dede;
+    margin: 0px 2px 2px;
+}
+#notepad .menu{
+    clear: both;
+    border: 1px solid #d6d6d6;
+    background: #f5f6f7;
+    margin: 2px 2px 0;
+    border-bottom: none;
+}
+#notepad .menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 5px;
+    text-align: left;
+}
+#notepad .menu ul li{
+    display: inline-block;
+    font-family: revert;
+    margin-right: 10px;
+    font-size: 0.8em;
+}
+#txt_question textarea{
+    width: 100%;
+    border: none;
+    min-height: 300px;
+}
+#cell_question p{
+    font-size: 1.3em;
+    line-height: 28px;
+}
+#cell_question{
+    background: rgb(255, 255, 255);
+    padding: 1em;
+    margin: 0 auto;
+    height: 100%;
+}
+#cell_question ul{
+    list-style: none;
+    margin: 0 5%;
+    padding: 0;
+}
+#cell_question ul li{
+    border: 2px solid rgb(229, 229, 229);
+    margin: 2px;
+    color: rgb(229, 229, 229);
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: 100;
+    font-size: .9em;
+}
+#cell_question ul li.active{
+    border: 2px solid rgb(28, 176, 246);
+    color: rgb(28, 176, 246);
+    background: #dcf2fd;
+}
+#cell_question button{
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    color: white;
+    background: rgb(97, 200, 14);
+    border-radius: 25px;
+    position: absolute;
+    bottom: 64px;
+    width: 82%;
+}
+
+/*
+* IPHONE
+*/
+
+
+.iphone {
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #999,
+    0 0 30px 0px rgba(0, 0, 0, 0.7);
+  border: 5px solid #4c4c4c;
+  background: #000;
+  padding: 15px;
+  border-radius: 50px;
+  height: 620px;
+  width: 330px;
+  position: relative;
+  margin: 30px auto;
+  transform: rotate(14deg);
+}
+
+.iphone-top {
+  padding: 5px 110px 40px;
+  position: relative;
+  .speaker {
+    display: block;
+    width: 70px;
+    height: 6px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background: #292728;
+  }
+
+  .camera {
+    display: block;
+    margin: 0 auto;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+    background: #333;
+  }
+
+  .sensor {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+    background: #333;
+    margin-top: -5px;
+    border-radius: 50%;
+  }
+}
+
+.top-bar,
+.bottom-bar {
+  display: block;
+  height: 15px;
+  border: {
+    left: 5px solid #bbb;
+    right: 5px solid #bbb;
+  }
+}
+.top-bar {
+  top: 65px;
+}
+
+.bottom-bar {
+  bottom: 65px;
+}
+
+.iphone-screen {
+  background: #eee;
+  border: 1px solid #fff;
+  height: 82%;
+  margin: 0 auto;
+  border: 2px solid rgba(0, 0, 0, 0.9);
+  border-radius: 3px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  img {
+    width: 100%;
+  }
+}
+
+.buttons {
+  .on-off,
+  .up,
+  .down,
+  .sleep {
+    display: block;
+    background: #ccc;
+    position: absolute;
+    border-radius: 2px 0px 0px 2px;
+  }
+  .on-off {
+    height: 40px;
+    width: 3px;
+    top: 100px;
+    left: -8px;
+  }
+
+  .up,
+  .down,
+  .sleep {
+    height: 60px;
+    width: 5px;
+    left: -10px;
+  }
+
+  .up {
+    top: 170px;
+  }
+
+  .down {
+    top: 250px;
+  }
+
+  .sleep {
+    left: auto;
+    right: -10px;
+    top: 170px;
+    border-radius: 0px 2px 2px 0px;
+  }
+}
+
+.iphone-bottom {
+  padding: 10px 0 0;
+  span {
+    display: block;
+    margin: 0 auto;
+    width: 68px;
+    height: 68px;
+    background: #ccc;
+    border-radius: 50%;
+    background: linear-gradient(
+      135deg,
+      #303233 0%,
+      #b5b7b9 50%,
+      #f0f2f2 69%,
+      #303233 100%
+    );
+    position: relative;
+    &:after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 60px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      left: 4px;
+      top: 4px;
+    }
+  }
+}
+
 
 /* LOGO
 ----------------------*/
@@ -315,10 +541,10 @@ header {
     content: "";
     position: absolute;
     width: 3px;
-    color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    color: #55a33f;
+    background: -moz-linear-gradient(top, #5ab23d 0%, #366d29 100%);
+    background: -webkit-linear-gradient(top, #5ab23d 0%, #366d29 100%);
+    background: linear-gradient(to bottom, #5ab23d 0%, #366d29 100%);
     top: 0;
     bottom: 0;
     left: 0;
@@ -326,6 +552,7 @@ header {
 
 .card-text {
     font-size: 14px;
+    line-height: 2em;
 }
 
 .card.features:hover {
@@ -394,7 +621,6 @@ header {
 
 .perspective-phone {
     position: relative;
-    z-index: -1;
 }
 
 @media (min-width:992px) {
