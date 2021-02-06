@@ -680,6 +680,18 @@ header {
 /*  TESTIMONIALS
 ----------------------*/
 
+.owl-carousel .owl-item.center img.screen  {
+    display: block;
+    width: 100%;
+    border: 13px solid gray;
+    border-radius: 20px;
+}
+.owl-carousel .owl-item img.screen  {
+    display: block;
+    width: 100%;
+    border: 13px solid #d8d4d4;
+    border-radius: 20px;
+}
 .owl-carousel .owl-item img.client-img {
     width: 110px;
     margin: 30px auto;
