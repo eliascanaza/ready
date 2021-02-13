@@ -180,6 +180,9 @@ p.lead {
     color: #b1dcb1;
     font-size: 1em;
 }
+.bg-green{
+    background-color: green;
+}
 /*
 * NOTEPAD
 */
