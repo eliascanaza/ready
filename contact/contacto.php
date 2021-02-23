@@ -11,7 +11,6 @@ if ( !isset($_POST["nombre"]) || !isset($_POST["email"]) || !isset($_POST["mensa
     die ("Es necesario completar todos los datos del formulario");
 }
 $nombre = $_POST["nombre"];
-$motivo = $_POST["motivo"];
 $email = $_POST["email"];
 $mensaje = $_POST["mensaje"];
 
@@ -43,7 +42,7 @@ $mail->FromName = $nombre;
 $mail->AddAddress($emailDestino); // Esta es la dirección a donde enviamos los datos del formulario
 
 $mail->Subject = "Tudyni.com - Formulario de contacto"; // Este es el titulo del email.
-$mensaje = "<br/>Motivo: $motivo<br/><br/>".$mensaje;
+$mensaje = "<br/>Correo: $email<br/><br/>".$mensaje;
 $mensajeHtml = nl2br($mensaje);
 $mail->Body = "{$mensajeHtml} <br /><br />Formulario de contacto desde TUDYNI.COM<br />"; // Texto del email en formato HTML
 $mail->AltBody = "{$mensaje} \n\n Tudyni.com - Formulario de contacto"; // Texto sin formato HTML

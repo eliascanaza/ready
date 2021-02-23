@@ -281,6 +281,62 @@ p.lead {
 }
 
 /*
+*  Contáctenos
+*/
+
+/* Style inputs with type="text", select elements and textareas */
+#contact input[type=text], input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 15px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: gray;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: gray;
+}
+
+::placeholder {
+  color: gray;
+}
+
+/* Style the submit button with a specific background color etc */
+#contact button[type=submit] {
+  background-color: rgb(227 150 45);
+    background: -moz-linear-gradient(135deg, rgb(80 148 64) 0%, rgb(96 193 60) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(80 148 64) 0%, rgb(96 193 60) 100%);
+    background: linear-gradient(135deg, rgb(80 148 64) 0%, rgb(96 193 60) 100%);
+    -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+#contact button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+#contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*
 * IPHONE
 */
 

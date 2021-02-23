@@ -144,5 +144,31 @@ $(function() {
         loadText();        
     });
 
+    //contactenos
+    var mensaje = $("#mensaje");
+    var formContacto = $('#contact');
+
+    formContacto.submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: 'contact/contacto.php',
+            data: $(this).serialize(),
+            success: function(response)
+            {
+                var jsonData = JSON.parse(response);
+                if (jsonData.success == "1")
+                {
+                    mensaje.text("Correo Enviado, te responderemos pronto!").show();
+                    formContacto[0].reset();
+                }
+                else
+                {
+                    mensaje.text("Ocurrió un error en el envio del correo!").show();
+                }
+           }
+       });
+     });
+
 }); /* End Fn */
 
