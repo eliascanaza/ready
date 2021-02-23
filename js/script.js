@@ -146,7 +146,7 @@ $(function() {
 
     //contactenos
     var mensaje = $("#mensaje");
-    var formContacto = $('#contact');
+    var formContacto = $('#contact-form');
 
     formContacto.submit(function(e) {
         e.preventDefault();
