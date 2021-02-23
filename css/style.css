@@ -296,6 +296,26 @@ p.lead {
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+#mensaje.error{
+  background: #ffc3c3;
+  margin-top: 20px;
+  padding: 15px;
+  color: #ec3c40;
+  border: 1px solid #f5676a;
+  border-radius: 10px;
+  display: none;
+}
+
+#mensaje.success{
+  background: aliceblue;
+  margin-top: 20px;
+  padding: 15px;
+  color: #05b7c5;
+  border: 1px solid #b7dffd;
+  border-radius: 10px;
+  display: none;
+}
+
 ::-webkit-input-placeholder { /* Edge */
   color: gray;
 }

@@ -159,16 +159,34 @@ $(function() {
                 var jsonData = JSON.parse(response);
                 if (jsonData.success == "1")
                 {
+                    mensaje.removeClass('error');
+                    mensaje.addClass('success');
                     mensaje.text("Correo Enviado, te responderemos pronto!").show();
                     formContacto[0].reset();
                 }
                 else
                 {
+                    mensaje.addClass('error');
                     mensaje.text("Ocurrió un error en el envio del correo!").show();
                 }
-           }
+           },
+           error: function (request, status, error) {
+                mensaje.removeClass('success');
+                mensaje.addClass('error');
+                mensaje.text("Ocurrió un error interno, trabajaremos en ello!").show();
+            }
        });
      });
+
+    $('#WAButton').floatingWhatsApp({
+        phone: '+51 975944898', //WhatsApp Business phone number International format-
+        //Get it with Toky at https://toky.co/en/features/whatsapp.
+        headerTitle: 'Hola bienvenido a TUDYNI!', //Popup Title
+        popupMessage: 'En que te podemos ayudar?', //Popup Message
+        showPopup: true, //Enables popup display
+        buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+        position: "right"    
+      });
 
 }); /* End Fn */
 
