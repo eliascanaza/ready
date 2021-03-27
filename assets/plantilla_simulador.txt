@@ -1,160 +1,19 @@
-Los principios fundamentales de Lean se centran en la identificación de flujos de valor, que en el caso de DevOps, son aplicaciones que forman servicios prestados a los clientes, los empleados o los socios.
-Verdadero*
-Falso
+Aquí va tu PRIMERA pregunta, utiliza toda esta linea.
+Aquí va tu primera opción
+Aquí va tu segunda opción
+Aquí va tu tercera opción*
+Aquí va tu cuarta opción
 
-Seguridad de la Información debe mantenerse involucrada en Desarrollo y Operaciones y esto es llamado actualmente DevSecOps.
-Verdadero *
-Falso
+Aquí va tu SEGUNDA pregunta, utiliza toda esta linea.
+Aquí va tu primera opción
+Aquí va tu segunda opción*
+Aquí va tu tercera opción
+Aquí va tu cuarta opción
 
-DevOps es incompatible con la metodología Lean.
-Verdadero
-Falso *
+Aquí va tu TERCERA pregunta, utiliza toda esta linea.
+TRUE
+FALSE*
 
-El objetivo principal del ciclo de vida del Software es definir todas las fases intermedias necesarias para validar el desarrollo de la aplicación.
-Verdadero *
-Falso
-
-Los orígenes del movimiento DevOps se encuentran alrededor de 2005
-Verdadero
-Falso *
-
-El objetivo de DevOps no sólo es incrementar el ritmo de cambio, sino implementar exitosamente nuevas funcionalidades en producción, sin causar caos ni interrumpir otros servicios
-Verdadero *
-Falso
-
-DevOps busca maximizar los resultados del negocio, tales como incrementar las ventas y la rentabilidad, mejorar la velocidad del negocio, maximizando los costos operativos.
-Verdadero
-Falso *
-
-System Thinking o pensamiento sistemático trata acerca de identificar y culpar al individuo responsable de cualquier incidente y no al sistema que permitió que este sucediera.
-Verdadero
-Falso *
-
-DevOps hace énfasis en la comunicación transparente, la colaboración e integración entre Desarrolladores y Operadores.
-Verdadero *
-Falso
-
-El objetivo final para el desarrollo de aplicaciones es adoptar un enfoque de gestión de servicios de negocio (BSM).
-Verdadero *
-Falso
-
-Las organizaciones de TI de alto rendimiento sacan una ventaja inicial a las otras organizaciones, pero esa ventaja inicial tiende a mantenerse estable.
-Verdadero
-Falso *
-
-DevOps tiene un enfoque holístico hacia la erradicación sistemática del trabajo no planificado
-Verdadero *
-Falso
-
-En la entrega continua, la idea es producir rápidamente versiones del sistema que estén operativas, aunque no tengan toda la funcionalidad prevista para el sistema, pero son un resultado de valor para el negocio.
-Verdadero *
-Falso
-
-CALMS es un acrónimo desarrollado originalmente por John Willis y Damon Edwards en el 2010 y posteriormente refinado por Jez Humble como un recurso para describir a DevOps.
-Verdadero *
-Falso
-
-DevOps es automatización, es un error considerar que no es completamente automatizado.
-Verdadero
-Falso *
-
-La S de CALMS es Share/Compartir se basa en crear responsabilidad compartida y sentido de pertenencia. Las personas están dispuestas a trabajar juntas si sus pensamientos y opiniones están siendo escuchados.
-Verdadero *
-Falso
-
-Una gran inspiración para DevOps fue el movimiento Agile, cuyo gran inconveniente era que dejaba de lado al equipo de desarrolladores.
-Verdadero
-Falso *
-
-Las herramientas más populares de DevOps son: Git, Jenkins, Selenium, Puppet, Nagios, Docker
-Verdadero *
-Falso
-
-El acrónimo CALMS significa: Cultura, Automatización, Lean, Medios de Comunicación, Sharing/Compartir.
-Verdadero
-Falso *
-
-La entrega continua de soluciones de servicio desarrolladas debe ser independiente de la capacidad del cliente para absorber el beneficio.
-Verdadero
-Falso *
-
-DevOps realiza un Incremento de la calidad, es decir; incremento de disponibilidad, incremento del ritmo de cambios exitosos, reducción de los fallos, entre otros.
-Verdadero *
-Falso
-
-En la Cultura de DevOps es importante fomentar el respeto. Cuando puedes entender y empatizar en ambos equipos de Desarrolladores y Operadores, puedes centrar todas tus energías en resultados positivos.
-Verdadero *
-Falso
-
-La letra C de CALMS significa “Ciclo” en DevOps.
-Verdadero
-Falso *
-
-La importancia de tener la capacidad de hacer entrega continua está en poder solucionar cualquier problema potencial que un usuario pueda experimentar mientras usa el software.
-Verdadero *
-Falso
-
-Los equipos DevOps logran el éxito por el uso de dos componentes claves llamados “comunicación” y “visibilidad en tiempo real”.
-Verdadero *
-Falso
-
-Uno de los beneficios de negocios para las organizaciones que adoptan DevOps es: Reducción en el tiempo de comercialización, es decir, con tiempos de ciclo más reducidos y tasas de despliegue más altas.
-Verdadero *
-Falso
-
-La Entrega Continua representa la capacidad de desplegar el software en cualquier entorno específico en un momento específico.
-Verdadero *
-Falso
-
-Los resultados de la Tercera Vía incluyen comprensión y respuesta a las necesidades de los clientes, internos y externos, el acortamiento y amplificación de los bucles de retroalimentación, e incluir conocimiento donde sea necesario
-Verdadero
-Falso *
-
-Uno de los Beneficios de DevOps es la reducción en el tiempo de comercialización.
-Verdadero
-Falso *
-
-¿Uno de los principios del proceso de desarrollo ágil es entregar software funcional en entregas más pequeñas y frecuentes?
-Verdadero *
-Falso
-
-Tanto ITIL como DevOps están destinados a apoyar la prestación de servicios de calidad
-Verdadero *
-Falso
-
-DevOps significa que los desarrolladores tomarán las responsabilidades de los operadores.
-Verdadero
-Falso *
-
-DevOps también tiene un enfoque hacia la erradicación sistemática del trabajo no planificado, aplicando principios de la ingeniería resiliente y la gestión y reducción responsable de la deuda técnica.
-Verdadero *
-Falso
-
-La palabra DevOps es una contracción de “Desarrollo” (Development) y “Operaciones” (Operations)
-Verdadero *
-Falso
-
-Los pilares de DevOps son Agile, la gestión de servicios de tecnologías de la información (en inglés IT Service Management, ITSM), y la Entrega Continua.
-Verdadero *
-Falso
-
-ITIL y DevOps no pueden trabajar juntos ya que no son compatibles. No se puede integrar los temas ágiles con marcos tradicionales de gestión de operaciones.
-Verdadero
-Falso *
-
-DevOps mantiene los canales de comunicación cerrados para no permitir una infiltración de los clientes a los niveles de desarrollo y operación.
-Verdadero
-Falso *
-
-Un enfoque alternativo para la adopción agresiva de DevOps es una Adopción Incremental; aunque esto puede tomar más tiempo, representará un riesgo significativamente menor y garantizará una implementación exitosa.
-Verdadero *
-Falso
-
-DevOps mejora la transparencia que es esencial para una toma de decisiones efectiva a través de colaboración entre el desarrollador y los equipos de operación.
-Verdadero *
-Falso
-
-Según Gartner, DevOps se trata de personas, procesos y tecnología, también de aplicar principios y métodos para la mejor colaboración entre la entrega de software y tus equipos de operaciones IT.
-Verdadero *
-Falso
-
+Aquí va tu CUARTA pregunta, utiliza toda esta linea.
+TRUE*
+FALSE

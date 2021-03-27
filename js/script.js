@@ -179,7 +179,7 @@ $(function() {
      });
 
     $('#WAButton').floatingWhatsApp({
-        phone: '+51 975944898', //WhatsApp Business phone number International format-
+        phone: '+51 972414610', //WhatsApp Business phone number International format-
         //Get it with Toky at https://toky.co/en/features/whatsapp.
         headerTitle: 'Hola bienvenido a TUDYNI!', //Popup Title
         popupMessage: 'En que te podemos ayudar?', //Popup Message
